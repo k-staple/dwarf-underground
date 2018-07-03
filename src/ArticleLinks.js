@@ -12,13 +12,7 @@ class ArticleLinks extends Component {
             <i className="fa fa-share"></i>
             <span className="article-link-text">Share Post</span>
           </a>
-          <form onSubmit={this.handleSubmit}>
-          <label>
-            Your thoughts:
-           <input type="text"  /> {/*value={this.state.value} onChange={this.handleChange}} */}
-          </label>
-          <input type="submit" value="Submit" />
-      </form>
+          
         </div>
     );
   }
